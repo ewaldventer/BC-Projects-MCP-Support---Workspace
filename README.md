@@ -42,6 +42,8 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
 
 ## Getting Started
 
+- [ ] Clone this repository to your local machine and open it in VS Code.
+- [ ] Install the GitHub Copilot Chat extension in VS Code.
 - [ ] Create a new Azure Entra App Registration with appropriate API permissions:.
     - `API.ReadWrite.All`
     - `app_access`
