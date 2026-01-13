@@ -19,7 +19,7 @@ Your goal is to create a new project in Business Central based on a document tha
    - Read .github/instructions/copilot-instructions.md and .docs/Business_Central_API_Guide.md to refresh the Uploaded Project Document workflow and critical rules.
 
 2. **Locate candidate documents**
-   - Use the ListProjectDocuments MCP tool to:
+   - Use the ListProjectDocumentTypes MCP tool to:
      - Retrieve the most recently uploaded project documents.
      - Filter by ${input:filename} (name contains or equals) to get a small candidate list.
    - Present the candidates (document name, type, projectNo if any, uploaded timestamp) and ask the user to confirm which document to use before continuing.

@@ -232,10 +232,12 @@ $text
 
 **Purpose:** This could be a combination of Excel and Word workflows, depending on the document type uploaded by the user in Business Central. The only exception is that the document has already been parsed and is available as text via the MCP tools.
 
+**IMPORTANT:** When requesting to update Project Documents, use the #ModifyProjectDocumentType tool.
+
 **Workflow:**
 
 1. **Extract content from Business Central using the MCP tool** - Data retrieval
-    - Use the #ListProjectDocuments_PAG50116 tool to get the list of documents
+    - Use the #ListProjectDocumentTypes_PAG50116 tool to get the list of documents
     - For Word, Text, or XML documents, use #ListProjectDocumentLines_PAG50123 to retrieve the content of the document.
       - Word documents are converted and stored in html format.
       - Text documents are stored as plain text.
@@ -253,7 +255,6 @@ $text
 5. **Show user the proposed structure** - Present the WBS design with description of each phase/task
 6. **Get user approval** - Ask: "Does this task structure align with the project scope and requirements?"
 7. **Upon approval, proceed with project creation** - Create project, tasks (with proper zero-padding and Begin-Total/End-Total pairing), and planning lines
-8. **When a project is created, link the uploaded document to the project** - Use the #AttachDocumentToProject_PAG50124 tool to associate the original document with the newly created project for future reference.
 
 **Key Points:**
 - RFP describes high level requirements, not an actual project plan

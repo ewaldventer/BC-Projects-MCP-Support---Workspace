@@ -28,8 +28,7 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
 - BC Projects MCP Support - Workspace (This repository) - Provides a ready-to-use workspace with pre-configured GitHub Copilot Chat settings to interact with the BC Projects MCP Support extension within Business Central.
   - [Repository](https://github.com/ewaldventer/BC-Projects-MCP-Support---Workspace)
 - BC Projects MCP Support application 
-  - [Source code](https://github.com/ewaldventer/BC-Projects-MCP-Support)
-  - [Compiled .app](https://github.com/ewaldventer/BC-Projects-MCP-Support/releases/tag/v1.1.0.0-beta) file for publishing to Business Central
+  - [Source code](https://github.com/ewaldventer/BC-Projects-MCP-Support)  
 - [Sample Prompts](./Demo%20Data/SamplePrompts.md)
 - Pre-configured Github Copilot Chat configuration for easy integration with VS Code:
   - [Agent](.github/agents/project-agent.agent.md)
@@ -51,7 +50,10 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
     - `Automation.ReadWrite.All `
     - `Financials.ReadWrite.All`
     - `user_impersonation`
-- [ ] Publish the PTE .app file to your Business Central environment.
+- [ ] Clone the BC-Projects-MCP-Support repository to your local machine and open it in VS Code.
+    - Configure launch.json
+    - Download symbols
+    - Build and Publish the PTE .app file to your Business Central environment.
 - [ ] In Business Central, create a Microsoft Entra Application Card for the App Registration, with the following permissions:
     - `D365 BASIC`
     - `BTR PROJ-FULL`
@@ -113,7 +115,7 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
     }
     ```
 
-> Note: Configuration Name is the MCP Server Configuration Name you set up in the Business Central. (Page 8351)
+> Note: Configuration Name is the MCP Server Configuration Name you set up in the Business Central. (Page 8351) ** ⚠️ It is case sensitive. ⚠️ **
 > Found the second configuration with a blank Configuration Name useful to allow for tool discovery of the MCP Server.
 
 ## Additional setups

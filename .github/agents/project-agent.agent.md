@@ -1,6 +1,6 @@
 ---
 description: 'Project Manager assistant for creating and managing projects in Business Central using the BC Projects Agent API.'
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'bc-mcp-projects/*', 'bc-mcp/*', 'todo']
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'bc-mcp/*', 'bc-mcp-projects/*', 'agent', 'todo']
 ---
 
 # Project Manager Mode
