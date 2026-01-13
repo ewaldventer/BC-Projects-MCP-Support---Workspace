@@ -1,4 +1,4 @@
-# BC Projects Agent
+# BC Projects Agent - Workspace
 
 ## Table of Contents
 - [Overview](#overview)
@@ -25,10 +25,8 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
 
 ## What's included
 
-- BC Projects MCP Support - Workspace (This repository) - Provides a ready-to-use workspace with pre-configured GitHub Copilot Chat settings to interact with the BC Projects MCP Support extension within Business Central.
-  - [Repository](https://github.com/ewaldventer/BC-Projects-MCP-Support---Workspace)
-- BC Projects MCP Support application 
-  - [Source code](https://github.com/ewaldventer/BC-Projects-MCP-Support)  
+- BC Projects MCP Support - Workspace (_This repository_) - Provides a ready-to-use workspace with pre-configured GitHub Copilot Chat settings to interact with the BC Projects MCP Support extension within Business Central.  
+- BC Projects MCP Support application [source code](https://github.com/ewaldventer/BC-Projects-MCP-Support)  
 - [Sample Prompts](./Demo%20Data/SamplePrompts.md)
 - Pre-configured Github Copilot Chat configuration for easy integration with VS Code:
   - [Agent](.github/agents/project-agent.agent.md)
@@ -115,7 +113,8 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
     }
     ```
 
-> Note: Configuration Name is the MCP Server Configuration Name you set up in the Business Central. (Page 8351) ** ⚠️ It is case sensitive. ⚠️ **
+> Note: Configuration Name is the MCP Server Configuration Name you set up in the Business Central. (Page 8351)  ⚠️ **It is case sensitive.** ⚠️ 
+> 
 > Found the second configuration with a blank Configuration Name useful to allow for tool discovery of the MCP Server.
 
 ## Additional setups
