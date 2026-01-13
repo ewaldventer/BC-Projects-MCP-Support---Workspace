@@ -39,6 +39,7 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
   - [Business Central API Guide](.docs/Business_Central_API_Guide.md)
   - [Projects Module Overview](.docs/Business_Central_Projects_Module_Reference_Guide.md)
 - [Rapid start packages](./Demo%20Data/Config.%20Package/) for samples Business Central setup
+- [Demo Projects](./Demo%20Data/Project%20Files/) for importing into Business Central or asking the AI agent to parse.
 
 ## Getting Started
 
