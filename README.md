@@ -30,7 +30,7 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
 - BC Projects MCP Support application 
   - [Source code](https://github.com/ewaldventer/BC-Projects-MCP-Support)
   - [Compiled .app](https://github.com/ewaldventer/BC-Projects-MCP-Support/releases/tag/v1.1.0.0-beta) file for publishing to Business Central
-- [Sample Prompts](.docs/SamplePrompts.md)
+- [Sample Prompts](./Demo%20Data/SamplePrompts.md)
 - Pre-configured Github Copilot Chat configuration for easy integration with VS Code:
   - [Agent](.github/agents/project-agent.agent.md)
   - [Prompts](.github/prompts)
