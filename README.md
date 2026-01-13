@@ -64,6 +64,8 @@ This repository is the companion or test workspace, for the BC Projects MCP Supp
     - VS Code with GitHub Copilot Chat Extension (requires BcMcpProxy)
     - Claude desktop
     - Copilot Studio
+- [ ] Select `project-agent` as the active agent in GitHub Copilot Chat.
+- [ ] Add `copilot-instructions.md` as the active instructions file in GitHub Copilot Chat.
 
 > This example uses VS Code with GitHub Copilot Chat Extension. If using Copilot Studio, be sure to upload the appropriate knowledge documentation. Though after numerous tests, it appears Copilot Studio struggles to utilize the MCP Server effectively compared to VS Code with BcMcpProxy.
 >
