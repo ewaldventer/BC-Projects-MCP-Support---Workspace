@@ -27,7 +27,7 @@
 
 # Project & Resource Ledger Reporting Prompts
 
-**NOTE**: The following prompts have been suggested by Copilot based on the context of project and resource management in Business Central. 
+> **NOTE**: The following prompts have been suggested by Copilot based on the context of project and resource management in Business Central. 
 
 These prompts are designed to work with the project ledger data to analyze project performance, resource utilization, and profitability. Use `[PROJECT_NO]` and `[RESOURCE_NO]` as placeholders and replace with actual values.
 
